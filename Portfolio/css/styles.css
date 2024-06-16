@@ -1,0 +1,67 @@
+@import url(indexS.css);
+@import url(contactS.css);
+@import url(projectsS.css);
+
+
+
+body{
+    background-color: white;
+    color: black;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+  nav ul li a:hover{
+    background-color: black;
+
+  }
+
+nav ul li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right:  50px;
+
+}
+
+
+#nightMode {
+    float: right;
+    background-color: grey;
+    padding: 14px 16px;
+    ;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+#nightMode:hover{
+    background-color: black;
+}
+
+#nightIcon{
+    width: 16px;
+
+}
+
+header{
+    margin-top: 50px;
+
+}
