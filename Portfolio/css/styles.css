@@ -1,7 +1,18 @@
 @import url(indexS.css);
 @import url(contactS.css);
 @import url(projectsS.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
 
+}
+h1, h2{
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
 
 
 body{
